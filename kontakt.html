@@ -18,7 +18,7 @@
   <nav class="main-nav">
     <ul class="main-menu" id="main-menu container">
       <li><a href="index.html">Domov</a></li>
-      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="portfolio.php">Portfólio</a></li>
       <li><a href="qna.html">Q&A</a></li>
       <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
