@@ -3,5 +3,39 @@
     "banner1.jpg":"Prvý nadpis",
     "banner2.jpg":"Druhý nadpis",
     "banner3.jpg": "Tretí nadpis"
+  },
+  "portfolio_obrazky": {
+    "portfolio1": {
+      "Názov": "Web stránka 1",
+      "url": "img/portfolio/portfolio1.jpg"
+    },
+    "portfolio2": {
+      "Názov": "Web stránka 2",
+      "url": "img/portfolio/portfolio2.jpg"
+    },
+    "portfolio3": {
+      "Názov": "Web stránka 3",
+      "url": "img/portfolio/portfolio3.jpg"
+    },
+    "portfolio4": {
+      "Názov": "Web stránka 4",
+      "url": "img/portfolio/portfolio4.jpg"
+    },
+    "portfolio5": {
+      "Názov": "Web stránka 5",
+      "url": "img/portfolio/portfolio5.jpg"
+    },
+    "portfolio6": {
+      "Názov": "Web stránka 6",
+      "url": "img/portfolio/portfolio6.jpg"
+    },
+    "portfolio7": {
+      "Názov": "Web stránka 7",
+      "url": "img/portfolio/portfolio7.jpg"
+    },
+    "portfolio8": {
+      "Názov": "Web stránka 8",
+      "url": "img/portfolio/portfolio8.jpg"
+    }
   }
 }

@@ -26,13 +26,20 @@ function preparePortfolio(int $numberOfRows = 2, int $numberOfCols = 4): array{
     return $portfolio;
 }
 function finishPortfolio(){
+    $json = file_get_contents("data/datas.json");
+    $data = json_decode($json, true);
     $portfolio = preparePortfolio();
     foreach ($portfolio as $row => $col) {
         echo '<div class="row">';
         foreach ($col as $index) {
-            echo '<div class="col-25 portfolio text-white text-center" id="portfolio-'.$index.'">
-                                        Web stránka '.$index.'
-                                                                 </div>';
+            $portfolioKey = 'portfolio' . $index;
+            $portfolioName = $data['portfolio_obrazky'][$portfolioKey]['Názov'];
+            $portfolioURL = $data['portfolio_obrazky'][$portfolioKey]['url'];
+            echo '<a href="' . $portfolioURL . '" target="_blank">
+                    <div class="col-25 portfolio text-white text-center" id="portfolio-' . $index . '">
+                        ' . $portfolioName . '
+                    </div>
+                  </a>';
         }
         echo '</div>';
     }
