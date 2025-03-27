@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62517702-3d67-44f1-b131-f979d80c0f03" name="Changes" comment="" />
+    <list default="true" id="62517702-3d67-44f1-b131-f979d80c0f03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/parts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/functions.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +35,7 @@
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/sablona1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -75,7 +81,12 @@
       <updated>1741298486175</updated>
       <workItem from="1741298487311" duration="2714000" />
       <workItem from="1742241200861" duration="215000" />
-      <workItem from="1742391352758" duration="13589000" />
+      <workItem from="1742391352758" duration="13699000" />
+      <workItem from="1743013940457" duration="75000" />
+      <workItem from="1743023134803" duration="31000" />
+      <workItem from="1743023271428" duration="90000" />
+      <workItem from="1743024052124" duration="54000" />
+      <workItem from="1743026116009" duration="2718000" />
     </task>
     <servers />
   </component>
