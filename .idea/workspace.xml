@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62517702-3d67-44f1-b131-f979d80c0f03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/parts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Kontakt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/QnA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/spracovanieFormulara.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cvicna_sablona.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cvicna_sablona.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/datas.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/datas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parts/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qna.php" beforeDir="false" afterPath="$PROJECT_DIR$/qna.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/thankyou.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +51,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -86,7 +99,14 @@
       <workItem from="1743023134803" duration="31000" />
       <workItem from="1743023271428" duration="90000" />
       <workItem from="1743024052124" duration="54000" />
-      <workItem from="1743026116009" duration="2718000" />
+      <workItem from="1743026116009" duration="2864000" />
+      <workItem from="1743161495640" duration="762000" />
+      <workItem from="1743163689535" duration="124000" />
+      <workItem from="1743163967041" duration="167000" />
+      <workItem from="1743611610707" duration="278000" />
+      <workItem from="1743611943884" duration="5766000" />
+      <workItem from="1743672181250" duration="8091000" />
+      <workItem from="1743687263382" duration="21000" />
     </task>
     <servers />
   </component>

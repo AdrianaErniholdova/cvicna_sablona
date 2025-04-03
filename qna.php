@@ -11,22 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header class="container main-header">
-  <div class="logo-holder">
-    <a href="index.html"><img src="img/logo.png" height="40 "></a>
-  </div>
-  <nav class="main-nav">
-    <ul class="main-menu" id="main-menu container">
-      <li><a href="index.html">Domov</a></li>
-      <li><a href="portfolio.php">Portfólio</a></li>
-      <li><a href="qna.html">Q&A</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-    </ul>
-    <a class="hamburger" id="hamburger">
-      <i class="fa fa-bars"></i>
-    </a>
-  </nav>
-</header>
+<?php  $file_path = "parts/header.php";
+if(!include($file_path)) {
+    echo"Failed to include $file_path";} ?>
   <main>
     <section class="banner">
       <div class="container text-white">
@@ -42,13 +29,25 @@
     </section>
       <section class="container">
           <section class="container">
-              <?php require "otazky.php"; ?>
-              <?php for ($i = 0; $i < count($otazky); $i++) { ?>
-                  <div class="accordion">
-                      <div class="question"><?php echo $otazky[$i]; ?></div>
-                      <div class="answer"><?php echo $odpovede[$i]; ?></div>
-                  </div>
-              <?php } ?>
+              <?php
+              include_once "classes/QnA.php";
+              use otazkyodpovede\QnA;
+              $qna = new QnA();
+              $qna->insertQnA();
+              $otazkyOdpovede = $qna->vlozQnA(); //volam metodu na vlozenie
+              ?>
+              <?php if (!empty($otazkyOdpovede)): ?> <!--ak pole otazok a odpovedi nieje prazdne-->
+                  <section class="container">
+                      <?php foreach ($otazkyOdpovede as $qna): ?> <!--prechadzame polozkami pola-->
+                          <div class="accordion">
+                              <div class="question"><?php echo $qna['otazka']; ?></div> <!--vlozenie otazky-->
+                              <div class="answer"><?php echo $qna['odpoved']; ?></div> <!--vlozenie odpovede-->
+                          </div>
+                      <?php endforeach; ?> <!--ukoncenie cyklu-->
+                  </section>
+              <?php else: ?>
+                  <p>Otázky neboli pridané.</p> <!--ak by bolo pole prazdne tak sa toto vypise-->
+              <?php endif; ?> <!--ukoncenie podmienky-->
           </section>
     </section>
   </div>

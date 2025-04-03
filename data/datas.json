@@ -1,4 +1,17 @@
 {
+  "otazky":[
+    "Prvá otázka",
+    "Druhá otázka",
+    "Tretia otázka",
+    "Štvrtá otázka"
+  ],
+  "odpovede":[
+    "Prvá odpoveď",
+    "Druhá odpoveď",
+    "Tretia odpoveď",
+    "Štvrtá odpoveď"
+  ],
+
   "text_banner":{
     "banner1.jpg":"Prvý nadpis",
     "banner2.jpg":"Druhý nadpis",

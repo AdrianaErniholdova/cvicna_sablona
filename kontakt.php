@@ -11,22 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header class="container main-header">
-  <div class="logo-holder">
-    <a href="index.html"><img src="img/logo.png" height="40 "></a>
-  </div>
-  <nav class="main-nav">
-    <ul class="main-menu" id="main-menu container">
-      <li><a href="index.html">Domov</a></li>
-      <li><a href="portfolio.php">Portfólio</a></li>
-      <li><a href="qna.html">Q&A</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-    </ul>
-    <a class="hamburger" id="hamburger">
-      <i class="fa fa-bars"></i>
-    </a>
-  </nav>
-</header>
+<?php  $file_path = "parts/header.php";
+if(!include($file_path)) {
+    echo"Failed to include $file_path";} ?>
 
   <main>
     <section class="banner">
@@ -52,10 +39,10 @@
         </div>
         <div class="col-50 text-right">
           <h3>Napíšte nám</h3>
-          <form id="contact" action="thankyou.html">
-            <input type="text" placeholder="Vaše meno" id ="meno"  required><br>
-            <input type="email" placeholder="Váš email" id="email" required><br>
-            <textarea name="" placeholder="Vaša správa" id="sprava"></textarea><br>
+          <form id="contact" method="post" action="db/spracovanieFormulara.php">
+            <input type="text" placeholder="Vaše meno" id ="meno" name="meno" required><br>
+            <input type="email" placeholder="Váš email" id="email" name="email" required><br>
+            <textarea name="sprava" placeholder="Vaša správa" id="sprava"></textarea><br>
             <input type="checkbox" name="" id="" required>
             <label for=""> Súhlasím so spracovaním osobných údajov.</label><br>
             <input type="submit" value="Odoslať">
